@@ -1,0 +1,9 @@
+@model ApiResponse
+
+<form asp-action="AddCategory" method="post" >
+    <div class="mb-3">
+        <label class="form-label">Kategori adı</label>
+        <input class="form-control" asp-for=category.Name />
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>

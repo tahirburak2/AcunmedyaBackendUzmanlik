@@ -1,0 +1,43 @@
+@model ApiResponse
+
+<h1>Ürünüzü ekleyiniz</h1>
+
+
+    <form asp-action="AddProduct" method="post"  id="addProductForm">
+    <div class="mb-3">
+        <label class="form-label">Title</label>
+        <input class="form-control" asp-for=product.Title/>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Description</label>
+        <input class="form-control" asp-for=product.Description />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Price</label>
+        <input class="form-control" asp-for=product.Price />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Model</label>
+        <input class="form-control" asp-for=product.Model />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Brand</label>
+        <input class="form-control" asp-for=product.Brand />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Color</label>
+        <input class="form-control" asp-for=product.Color/>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Category</label>
+         <select class="form-control" asp-for=product.Category>
+            @foreach (var category in ViewBag.categorylist)
+                {
+                    <option value="@category">@category</option>
+                }
+            </select> 
+        </div>
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </form>
+
+

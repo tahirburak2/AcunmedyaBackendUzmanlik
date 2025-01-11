@@ -1,0 +1,15 @@
+@model List<Product>
+
+<h1>Ürünler</h1>
+
+<ul>
+    @foreach (var product in Model)
+    {
+        <li>
+
+            <h3>@product.Title</h3>
+            <p>Price: @product.Price</p>
+            <p>@product.Description</p>
+        </li>
+    }
+</ul>

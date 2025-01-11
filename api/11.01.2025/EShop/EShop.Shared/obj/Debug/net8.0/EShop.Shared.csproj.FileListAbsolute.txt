@@ -1,0 +1,5 @@
+/Users/tahirburakavar/Documents/github/AcunmedyaUzmanlik/api/11.01.2025/EShop/EShop.Shared/obj/Debug/net8.0/EShop.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tahirburakavar/Documents/github/AcunmedyaUzmanlik/api/11.01.2025/EShop/EShop.Shared/obj/Debug/net8.0/EShop.Shared.AssemblyInfoInputs.cache
+/Users/tahirburakavar/Documents/github/AcunmedyaUzmanlik/api/11.01.2025/EShop/EShop.Shared/obj/Debug/net8.0/EShop.Shared.AssemblyInfo.cs
+/Users/tahirburakavar/Documents/github/AcunmedyaUzmanlik/api/11.01.2025/EShop/EShop.Shared/obj/Debug/net8.0/EShop.Shared.csproj.CoreCompileInputs.cache
+/Users/tahirburakavar/Documents/github/AcunmedyaUzmanlik/api/11.01.2025/EShop/EShop.Shared/obj/Debug/net8.0/EShop.Shared.sourcelink.json

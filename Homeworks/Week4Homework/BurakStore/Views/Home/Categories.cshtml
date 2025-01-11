@@ -1,0 +1,11 @@
+@model ApiResponse
+
+<h1>Kategoriler</h1>
+@foreach (var category in ViewBag.categorylist)
+{
+<ul>
+    <li>
+        <a asp-action="ProductByCategories" asp-route-category="@category">@category</a>
+    </li>
+</ul>
+}
