@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FakeStoreApiMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fbc97f427368adc1bbd50b4a82d991b14c0b3d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41067a76e882d69d099e24f44e6baf07442436f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("FakeStoreApiMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FakeStoreApiMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

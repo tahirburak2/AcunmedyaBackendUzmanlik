@@ -7,10 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Dtos/.config/dotnet-tools.json" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
-<ItemGroup>
-<FrameWorkReference Include="Microsoft.AspNetCore.App" />
-</ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configurations/Email/" />
+  </ItemGroup>
+
 </Project>
