@@ -6,13 +6,15 @@ namespace EfCore.Data.Concrete.Contexts;
 
 public class AppDbContext : DbContext
 {
-    public AppDbContext(DbContextOptions<AppDbContext> options):base(options)
+    public DbSet<Category> Categories { get; set; }
+    public DbSet<Product> Products { get; set; }
+    public DbSet<ProductCategory> ProductCategories { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        
+        optionsBuilder.UseSqlServer("Server=SINIF115\\SQLEXPRESS;Database=EfCoreDbMany;User=sa;Password=Qwe123.,;TrustServerCertificate=true");
+        base.OnConfiguring(optionsBuilder);
     }
-    public DbSet<Category>? Categories { get; set; }
-    public DbSet<Product>? Products { get; set; }
-    public DbSet<ProductCategory>? ProductCategories { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

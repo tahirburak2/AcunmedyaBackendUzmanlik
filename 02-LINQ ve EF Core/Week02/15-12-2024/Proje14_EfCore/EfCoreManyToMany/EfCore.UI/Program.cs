@@ -1,17 +1,7 @@
-using EfCore.Data.Abstract;
-using EfCore.Data.Concrete.Contexts;
-using EfCore.Data.Concrete.Repositories;
-using Microsoft.EntityFrameworkCore;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<AppDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
-
-
 
 var app = builder.Build();
 
